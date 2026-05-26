@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../icons/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: #25b359;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+img{
+    filter: invert(100%);
+}
+.mensagem{
+    border: 2px solid #ffffff;
+    border-radius: 999px;
+    margin: 15px;
+}
+footer{
+    color:dimgray;
+    opacity: 0.5;
+}
